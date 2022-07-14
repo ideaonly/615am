@@ -2,23 +2,23 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'e8bacc57dd8d48869d5c223f25c0d959',
+  rootNotionPageId: '8257433d48854bd4ab695dec9ad732b4',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'BENSON & CLOUD',
-  domain: 'https://enchanted-gosling-5ac.notion.site/BENSON-CLOUD-e8bacc57dd8d48869d5c223f25c0d959',
-  author: 'BENSON',
+  name: 'webtest',
+  domain: 'https://ideaonly.notion.site/Blog-Post-8257433d48854bd4ab695dec9ad732b4',
+  author: 'Jarvis',
 
   // open graph metadata (optional)
-  description: 'BENSON & CLOUD LIFE',
+  description: 'webtest miaoshu',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
-  github: 'benson-singapore',
+  github: 'text',
   // linkedin: 'fisch2',
 
   // default notion icon and cover images for site-wide consistency (optional)
@@ -49,14 +49,14 @@ export default siteConfig({
   // important pages
   // navigationStyle: 'default',
   navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'About',
-      pageId: 'd6bf6d082b734a1b9e6ae2755cfd5d94'
-    },
-    {
-      title: 'Contact',
-      pageId: '02c0e98551fd431d949061c81e0bff3d'
-    }
-  ]
+  //navigationLinks: [
+   // {
+     // title: 'About',
+     // pageId: 'd6bf6d082b734a1b9e6ae2755cfd5d94'
+    //},
+    //{
+      //title: 'Contact',
+      //pageId: '02c0e98551fd431d949061c81e0bff3d'
+    //}
+  //]
 })
