@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '8257433d48854bd4ab695dec9ad732b4',
+  rootNotionPageId: '3f45c26baa5b4c6a8cd79f9405efad73',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'webtest',
-  domain: 'https://ideaonly.notion.site/Blog-Post-8257433d48854bd4ab695dec9ad732b4',
+  name: '六点一刻钟',
+  domain: 'https://www.notion.so/ideaonly/3f45c26baa5b4c6a8cd79f9405efad73',
   author: 'Jarvis',
 
   // open graph metadata (optional)
-  description: 'webtest miaoshu',
+  description: '6-15 miaoshu',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
