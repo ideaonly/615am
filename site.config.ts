@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '六点一刻钟',
+  name: '六点一刻钟 ',
   domain: 'https://www.notion.so/ideaonly/3f45c26baa5b4c6a8cd79f9405efad73',
   author: 'Jarvis',
 
